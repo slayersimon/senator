@@ -1,0 +1,45 @@
+.container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 2rem;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        margin-bottom: 6rem;
+    background-color: white;
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
+}
+
+.card {
+    border: 2px solid red;
+}
+
+.media-left {
+    size: -1.5rem;
+    /* background-color: gray; */
+    padding: 0px;
+}
+
+.card-image {
+    size: auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+.media-content {
+    padding: 10px;
+}
+
+body {
+    background-color: blue;
+}
+
+figure {
+    margin: 0 auto;
+}
